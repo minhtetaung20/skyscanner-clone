@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.navbar {
+  background-color: #05203c;
+  margin-bottom: 2em;
+  min-height: 250px;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1100px;
+  justify-content: space-between;
+}
+img {
+  max-width: 100%;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.logo img {
+  width: 20%;
+  margin-right: 12px;
+}
+.profile {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+.profile .btn:hover {
+  cursor: pointer;
+  background-color: #3f556c;
+}
+.globe img {
+  width: 3em;
+}
+.log-in {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5em 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log-in img {
+  margin-right: 0.5em;
+  width: 2em;
+}
+.menu {
+  padding: 8px;
+}
+.menu img {
+  width: 30px;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.heading {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1100px;
+}
+.buttons {
+  margin-top: 2.5em;
+}
+.buttons button {
+  padding: 0.5em 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+.buttons button:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+.booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking .card {
+  background-color: white;
+  color: rgb(94, 94, 94);
+  border: 1px solid white;
+  padding: 1em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 18%;
+}
+.booking input {
+  font-size: 1rem;
+  min-height: 82px;
+}
+.yangon {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.economy {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card span {
+  font-size: 0.8rem;
+  margin-left: 1em;
+}
+.card p {
+  margin-left: 1em;
+}
+.card:hover {
+  cursor: pointer;
+}
+.search {
+  padding: 2.3em 1.5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.9rem;
+}
+.search:hover {
+  cursor: pointer;
+  background-color: #3c75f0;
+}
+
+.main {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main .blog-card {
+  background-color: #05203c;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1.5em 0 1.5em 1em;
+  width: 30%;
+  border: 1px solid gray;
+}
+.main .blog-card:hover {
+  cursor: pointer;
+  background-color: #082e56;
+}
+.main .blog-card img {
+  width: 10%;
+}
+.main .blog-card p {
+  margin-left: 1em;
+  font-weight: 500;
+  color: white;
+}
+.travelling-img {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-height: 640px;
+  border-radius: 10px;
+  background-image: url("img/travelling.jpg");
+  color: white;
+}
+.img-text {
+  width: 40%;
+  margin-left: 2em;
+  transform: translateY(90%);
+}
+.img-text p {
+  font-size: 1.25rem;
+}
+.img-text h3 {
+  font-size: 2.5rem;
+}
+.img-text button {
+  border: none;
+  padding: 0.6em 2.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+.travelling-img:hover {
+  cursor: pointer;
+}
+.img-text button:hover {
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+}
+
+.card-component {
+  color: black;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+.card-component h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+.country-card {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.travel-card {
+  border-radius: 10px;
+  box-shadow: 1px 1px rgb(204, 204, 204);
+  display: flex;
+  width: 32%;
+  align-items: center;
+}
+.travel-card img {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 30%;
+}
+.country-name {
+  margin-left: 1em;
+}
+.country-name h3 {
+  font-size: 0.9rem;
+}
+.country-name a {
+  text-decoration: none;
+}
+.about {
+  width: 80%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1em;
+  color: black;
+}
+.booking-flight {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  color: black;
+  font-size: 1.5rem;
+}
+.about-skyscanner {
+  width: 49%;
+}
+.text {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid gray;
+}
+.text:hover {
+  cursor: pointer;
+}
+.text svg {
+  width: 5%;
+}
+.up-arrow {
+  display: none;
+}
+.visible {
+  display: none;
+}
+footer {
+  background-color: #05203c;
+}
+.footer-section {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+}
+.footer-section .modal-box {
+  align-self: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 20%;
+  font-size: 0.8rem;
+  padding-left: 0.5em;
+}
+.footer-section .modal-box:hover {
+  cursor: pointer;
+}
+.modal {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+.modal::backdrop {
+  opacity: 0.4;
+  background-color: rgb(101, 101, 101);
+}
+.modal h3 {
+  margin: 1em 0 0 0.8em;
+}
+.modal h4 {
+  font-size: 0.8rem;
+  margin: 1.5em 0 0.5em 0.8em;
+}
+.modal p {
+  font-size: 0.8rem;
+}
+.modal select {
+  width: 90%;
+  padding: 0.3em 0;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+}
+.modal button {
+  width: 90%;
+}
+.modal button:hover {
+  cursor: pointer;
+}
+.modal .save-btn {
+  margin-top: 2em;
+  background-color: #05203c;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em 0;
+}
+.modal .save-btn:hover {
+  background-color: #0b417b;
+}
+.modal .cancle {
+  margin: 1em 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em 0;
+  border: 1px solid rgb(200, 200, 200);
+}
+.modal .cancle:hover {
+  background-color: #cbcbcb;
+}
+.setting p,
+.policy p {
+  margin-bottom: 1em;
+}
+.setting p:hover,
+.policy p:hover {
+  cursor: pointer;
+}
+.explore,
+.company,
+.partners,
+.trips,
+.international-sites {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.explore .down-arrow,
+.company .down-arrow,
+.partners .down-arrow,
+.trips .down-arrow,
+.international-sites .down-arrow {
+  width: 5%;
+  color: white;
+}
+.explore:hover,
+.company:hover,
+.partners:hover,
+.trips:hover,
+.international-sites:hover {
+  cursor: pointer;
+}
+.last-div {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3em;
+}
+.last-div p {
+  color: white;
+}
